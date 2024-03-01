@@ -220,6 +220,9 @@ const predict = () => {
   }
 };
 
+const taxiFareApiUrl = 'https://taxifare.lewagon.ai/predict';
+
+
 displayMap();
 pickupAutocomplete();
 dropoffAutocomplete();
